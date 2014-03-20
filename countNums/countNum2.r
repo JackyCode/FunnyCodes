@@ -1,6 +1,18 @@
-# this R script tells how to count the numbers of 1 from 1~N
 ############################################################
+# countNum2.r:
+# ------------
+# this R script tells how to count the numbers of 1 from 1~N
+#
 # method 2
+############################################################
+#
+############################################################
+# license:
+# --------
+# Copyright (c) 2014 JackyCode
+# Distributed under the [MIT License][MIT].
+# [MIT]: http://www.opensource.org/licenses/mit-license.php
+#
 ############################################################
 
 ## a more productive algorithm to solve the problem

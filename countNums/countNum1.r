@@ -17,7 +17,7 @@
 
 ## the 'countN1' is the main function and it returns the result
 countN1 <- function(n) {
-	if (!is.numeric(n) | round(n) != n) {
+	if (!is.numeric(n) | n <= 0 | round(n) != n) {
 		stop("the number you enter should be an integer!")
 	}
 	

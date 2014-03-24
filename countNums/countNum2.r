@@ -17,7 +17,7 @@
 
 ## a more productive algorithm to solve the problem
 countN2 <- function(n) {
-	if (!is.numeric(n) | round(n) != n) {
+	if (!is.numeric(n) | n <= 0 | round(n) != n) {
 		stop("the number you enter should be an integer!")
 	}
 	
